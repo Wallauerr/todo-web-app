@@ -2,7 +2,11 @@
 
 ## Sobre o Projeto
 
-Este é um projeto acadêmico desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas. O Task Master é uma aplicação web para gerenciamento de tarefas, demonstrando habilidades em desenvolvimento front-end e back-end.
+Este é um projeto acadêmico desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas. O Task Master é uma aplicação web para gerenciamento de tarefas, projetada para demonstrar habilidades em desenvolvimento front-end e back-end, utilizando tecnologias modernas.
+
+## Objetivos do Projeto
+
+Para a implementação da aplicação, deverão ser utilizadas as tecnologias Java ou PHP, HTML, CSS e JavaScript, podendo incorporar outras tecnologias, como Bootstrap, por exemplo. É obrigatória a utilização de alguma das tecnologias do Java (como JSP, Servlet, JSF ou alguma outra do J2EE) ou ainda o PHP, caso você, acadêmico, ainda não tenha estudado uma disciplina com Java Web. Também é obrigatório que a aplicação desenvolvida realize persistência em um banco de dados, podendo ser apenas uma consulta ou a inserção de um registro em uma tabela do banco de dados.
 
 ## Como Contribuir
 
@@ -60,7 +64,7 @@ git push origin main
 ### Criando o banco de dados no postgreSQL
 
 - Abra o postgres e crie uma nova `database` chamada `to_do_list`.
-- Crie uma tabela 
+- Crie uma tabela com o seguinte comando SQL: 
 ```
 CREATE TABLE task (
 	id SERIAL PRIMARY KEY,
@@ -69,7 +73,7 @@ CREATE TABLE task (
 );
 ```
 
-### Instalando Dependências e iniciando o client
+### Instalando Dependências e iniciando o `Client`
 
 ```
 cd client
@@ -77,7 +81,7 @@ npm install
 npm run dev
 ```
 
-### Iniciando o server
+### Iniciando o `Server`
 
 ```
 cd server
